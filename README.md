@@ -20,7 +20,7 @@ PHP4・PHP5のいずれでも利用可能です。
 使い方
 ------
 
-1. イベント情報を取得する
+### イベント情報を取得する
 
 <pre>require_once 'Services/Google/Calendar.php';
 
@@ -33,7 +33,7 @@ $public_data = $gc->getEvents($gmail_id);
 // get events data (private mode)
 $private_data = $gc->getEvents($gmail_id, $hash);</pre>
 
-2. イベントを追加する
+### イベントを追加する
 
 <pre>require_once 'Services/Google/Calendar.php';
 
